@@ -3,6 +3,7 @@ from PIL import Image, ImageTk
 import os
 import time
 
+
 def printcoordinates(click):
     f.write(str(click.x) + " " + str(click.y) + "\n")
     print(click.x, click.y)
